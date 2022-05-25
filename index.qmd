@@ -84,8 +84,7 @@ data %>% ggplot(aes(x = factor(Kompetenzstufe), y = factor(Note), size = count))
   geom_point(shape = 16, color = "grey") +
   geom_text(aes(label=count), size = 6) +
   scale_size(range = c(3, 25)) +
-  scale_x_discrete(position = "top", breaks = c("1","2","3","4","5"))+
-  scale_y_discrete(limits=rev) +
+  scale_y_discrete() +
   theme(axis.title = element_text(size = 15),
         axis.text = element_text(size = 15),
         panel.background = element_rect(fill = "white", colour = NA),
