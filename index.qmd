@@ -29,7 +29,7 @@ Das Token lautet: `Sawnicasat`
 
 ## Wdh. am Beispiel Notenfairness
 
-Stellen Sie sich vor, sie haben die Noten sowie die objektiviert gemessenen Kompetenzstufen aller $N=12 Achtklässlerinnen und Achtklässer eines Bundeslandes in einem Datensatz. 
+Stellen Sie sich vor, sie haben die Noten sowie die objektiviert gemessenen Kompetenzstufen aller $N=12350$ Achtklässlerinnen und Achtklässern eines Bundeslandes in einem Datensatz. 
 
 ## Bubbleplot
 ```{r}
